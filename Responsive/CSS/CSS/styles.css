@@ -1,0 +1,118 @@
+/* Global Styles */
+
+body {
+    background-color: #5BA9D9;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#container {
+    background-color: wheat;
+}
+
+/* Mobile Styles */
+
+@media (min-width: 320px) {
+    nav {
+        background-color: wheat;
+        padding: 5px;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color: #5BA9D9;
+    color: wheat;
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+nav li a:hover {
+    background-color: wheat;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3, h4, footer {
+    text-align: center;
+    color: orange;
+    text-shadow: 2px 2px 0px black;
+}
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 250px;
+        height: 50px;
+        line-height: 50px;
+        margin: 5px;
+    }
+
+    .pictures {
+        width: 50%;
+        box-shadow: 7px 7px 5px;
+    }
+}
+
+/* Computer Styles */
+
+@media (min-width: 1024px) {
+    #container {
+        width: 90%;
+        margin: 20px auto;
+        border: 5px solid black;
+        border-radius: 20px;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    nav li a {
+        background-color: orange;
+        color: black;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #multi_col {
+        display: flex;
+    }
+
+    .col {
+        margin: 5px;
+        padding: 20px;
+        border: 5px solid black;
+    }
+
+    .pictures {
+        width: 75%;
+    }
+
+}
