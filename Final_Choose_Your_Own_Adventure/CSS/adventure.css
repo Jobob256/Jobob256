@@ -1,0 +1,299 @@
+/* Global Styles */
+
+body {
+    background-color: black;
+}
+
+#stars {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.all_text {
+    position: relative;
+    color: #f1f1f1;
+    
+}
+
+nav li a {
+    color: white;
+    text-align: center;
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 50px;
+    text-shadow: 5px 5px 0px black;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-family: "Jersey 10 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;      
+    font-size: 25px;
+    padding-top: 450px;
+    line-height: 40px;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-family: "Jersey 10 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;      
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+p {
+    text-shadow: 2px 2px 0px black;
+}
+
+/* Phone Styles */
+
+.left_choices {
+    display: inline;
+    text-align: center;
+}
+
+
+
+.right_choices {
+    display: inline;
+    text-align: center;
+}
+
+header {
+    font-size: 25px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#dark_zone {
+    font-size: 25px;
+    color: white;
+}
+
+.photos {
+    width: 305px;
+}
+
+p {
+    color: white;
+}
+
+#Investigate {
+    font-size: 25px;
+}
+
+#Retreat {
+    font-size: 25px;
+}
+
+#Approach {
+    font-size: 25px;
+}
+
+#Scan {
+    font-size: 25px;
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+    
+    #Approach {
+        padding-bottom: 43px;
+    
+    }
+    
+    #Scan {
+        padding-left: 50px;
+    
+    }
+
+    .left_choices {
+        width: 45%;
+        padding-left: 20px;
+        margin-top: 20px;
+        text-align: center;
+        display: inline;
+    }
+    
+    .right_choices {
+        width: 45%;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        display: inline;
+        margin-top: 20px;
+    }
+
+    .photos {
+        width: 500px;
+        padding-left: 150px;
+    }
+    
+    #dark_zone {
+        padding-left: 50px;
+        padding-right: 50px;
+        color: white;
+    }
+    
+    .dark_zone_p {
+        padding-left: 70px;
+        padding-right: 50px;
+        color: white;
+    }
+    
+    #Path_2 {
+        font-size: 23px;
+        color: white;
+    }
+    
+    #Investigate {
+        padding-bottom: 43px;
+        padding-right: 20px;
+    }
+    
+    #Retreat {
+        padding-left: 70px;
+    
+    }
+    
+    nav li {
+        display: block;
+        margin-top: 40px;
+    }
+    
+    
+    h1, h2, h3, h4, h5 {
+        font-size: 25px;
+        font-family: "Press Start 2P", system-ui;
+        font-style: normal;
+        color: white;
+        text-align: center;
+    }
+    
+    p {
+        color: white;
+        text-align: center;
+        line-height: 25px;
+        padding-right: 20px;
+        display: block;
+    }
+
+    
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+
+    .left_choices {
+        float: left;
+        max-width: 100%;
+        border: 5px;
+        border: 5px solid rgb(255, 255, 255);
+        margin-top: 20px;
+    }
+
+    hr {
+        display: none;
+    }
+
+
+    .photos {
+        width: 600px;
+        padding-left: 240px;
+    }
+    
+    #container {
+        width: 1000px;
+        
+    }
+    
+    #Approach {
+        padding-bottom: 43px;
+    
+    }
+    
+    #Scan {
+        padding-left: 50px;
+    
+    }
+    
+    .right_choices {
+        float: right;
+        max-width: 500px;
+        border: 5px;
+        border: 5px solid rgb(255, 255, 255);
+        padding-right: 10px;
+    }
+    
+    #dark_zone {
+        padding-left: 50px;
+        color: white;
+    }
+    
+    .dark_zone_p {
+        padding-left: 70px;
+        padding-right: 50px;
+        color: white;
+    }
+    
+    #Investigate {
+        padding-bottom: 43px;
+        padding-right: 20px;
+    }
+    
+    #Retreat {
+        padding-left: 70px;
+    
+    }
+    
+    nav li {
+        display: block;
+        margin-top: 40px;
+    }
+    
+    
+    h1, h2, h3, h4, h5 {
+        font-size: 25px;
+        font-family: "Press Start 2P", system-ui;
+        font-style: normal;
+        color: white;
+        text-align: center;
+    }
+    
+    p {
+        color: white;
+        text-align: center;
+        line-height: 25px;
+        padding-right: 20px;
+    }
+}
+
+/* Large Desktop Styles */
+
+@media (min-width: 1440px) {
+
+
+#container {
+    width: 1400px;
+    transform: scale(1, 1);
+    padding-bottom: 50px;
+}
+
+.photos {
+    width: 600px;
+    padding-left: 400px;
+}
+
+}
